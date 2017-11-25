@@ -1,5 +1,6 @@
 package generic;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
@@ -13,6 +14,7 @@ public class LaunchBrowser implements AutoConst{
 		WebDriver driver=new FirefoxDriver();
 		
 		driver.get("http://www.facebook.com");
+		driver.findElement(By.id("email")).sendKeys("lavanyajlav");
 		
 		}
 
