@@ -25,7 +25,7 @@ public class LaunchBrowser2 implements AutoConst {
 		System.out.println("---------USERNAME IS "+username);*/
 		
 		driver.findElement(By.id("pass")).sendKeys("lav888");
-		driver.findElement(By.id("u_0_5")).click();
+		//driver.findElement(By.id("u_0_5")).click();
 		
 		
 		
